@@ -1,0 +1,54 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: lightgray;
+}
+header{
+    height: 100px;
+    background-color: blue;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header *{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+}
+nav{
+    height: 70px;
+    background-color: lightcoral;
+    color: yellow;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav *{
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+#header a{
+    color: #eeeeee;
+    margin: 20px;
+    text-decoration: none;
+}
+#cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gray;
+    font-size: 70px;
+}
+#cont form{
+    font-size: 15px;
+    color: black;
+    margin-bottom: 10px;
+}
+table{
+    color: green;
+}

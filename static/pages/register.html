@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="text/css" href="../css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <a href="main">main </a>
+        <a href="register">register</a>
+        <a href="login">login</a>
+        <a href="admin">admin</a>
+    </header>
+    <div id="cont">
+        <div>register page</div>
+        <form action="/register" method="POST">
+            Login: <input name="login" type="text"> <br />
+            Hasło: <input name="password" type="password"> <br />
+            Czy jesteś uczniem? <input name="student" type="checkbox"> <br />
+            Płeć: K: <input name="gender" type="radio" value="k"> M: <input name="gender" type="radio" value="m"><br />
+            Wiek: <select name="wiek" id="wiek">
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="19">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+            </select> <br />
+            <button type="submit">Dodaj!</button>
+        </form>
+    </div>
+</body>
+
+</html>

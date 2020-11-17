@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="text/css" href="../css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <a href="main">main </a>
+        <a href="register">register</a>
+        <a href="login">login</a>
+        <a href="admin">admin</a>
+    </header>
+    <nav style="background-color: red;">Nie zalogowałeś się. Spróbuj ponownie.</nav>
+    <div id="cont">
+        <div>login page</div>
+        <form action="/formLogin" method="POST">
+            Login: <input name="login" type="text"> <br />
+            Hasło: <input name="password" type="password"> <br />
+            <button type="submit">Dodaj!</button>
+        </form>
+    </div>
+</body>
+
+</html>
